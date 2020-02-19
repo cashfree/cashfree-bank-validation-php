@@ -11,7 +11,7 @@ This kit is linked to the Bank Validation flow. Go [here](https://dev.cashfree.c
 The following kit contains the following functionalities:
     <ol>
     <li> [getToken](https://dev.cashfree.com/api-reference/payouts-api#authorise): to get the auth token to be used in all          following calls.
-    <li> [verifyBankAccount](https://dev.cashfree.com/api-reference/payouts-api#bank-validation): to verify bank account.
+    <li> [verifyBankAccount](https://dev.cashfree.com/api-reference/payouts-api#bank-verification): to verify bank account.
     </ol>
 
 ## Build Steps
@@ -30,11 +30,11 @@ and add the relevant details:
 
 ### IP Whitelisting:
 
-Your IP has to be whitelisted to hit Cashfree's server. For more information please go [here](https://github.com/cashfree/cashfree-bank-validation-php).
+Your IP has to be whitelisted to hit Cashfree's server. For more information please go [here](https://dev.cashfree.com/development/api/ip-whitelisting).
 
 ### Bank Details:
 
-The following kit needs bank account details to validate the bank account. For a list of required fields go [here](https://dev.cashfree.com/api-reference/payouts-api#bank-validation)
+The following kit needs bank account details to validate the bank account. For a list of required fields go [here](https://dev.cashfree.com/api-reference/payouts-api#bank-verification)
 <br/>
 The kit picks up the bank account details from the index.php file bankDetails object. Required fields are:
   1. name: name of the account to be verified.
