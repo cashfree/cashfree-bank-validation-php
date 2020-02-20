@@ -26,7 +26,7 @@ The following kit uses information stored in the index.php file. Before running 
 and add the relevant details:
   1. ClientId: This is a unique identifier that identifies the merchant. For more information please go [here](https://dev.cashfree.com/development/api/credentials).
   2. ClientSecret: Corresponding secret key for the given ClientId that helps Cashfree identify the merchant. For more information please go [here](https://dev.cashfree.com/development/api/credentials).
-  3. Environment: Environment to be hit. The following values are accepted prod: for production, test: for test environment.
+  3. Environment: Environment to be hit. The following values are accepted prod: for production, test: for the test environment.
 
 ### IP Whitelisting:
 
